@@ -1,5 +1,7 @@
 # alibaba-cloud-ops-mcp-server
 
+[![smithery badge](https://smithery.ai/badge/@axap288/alibaba-cloud-ops-mcp-server)](https://smithery.ai/server/@axap288/alibaba-cloud-ops-mcp-server)
+
 ## Prepare
 
 Install [uv](https://github.com/astral-sh/uv)
@@ -70,3 +72,11 @@ To use `alibaba-cloud-ops-mcp-server` MCP Server with any other MCP Client, you 
 | | GetDiskUsageData | Get Disk Utilization Metric Data | API | Done |
 | | GetDiskTotalData | Get Total Disk Partition Capacity Metric Data | API | Done |
 | | GetDiskUsedData | Get Disk Partition Usage Metric Data | API | Done |
+
+### Installing via Smithery
+
+To install Alibaba Cloud Operations Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@axap288/alibaba-cloud-ops-mcp-server):
+
+```bash
+npx -y @smithery/cli install @axap288/alibaba-cloud-ops-mcp-server --client claude
+```
